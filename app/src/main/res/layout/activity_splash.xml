@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="221dp"
+        android:src="@drawable/todologo2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/logo"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/dimen_60"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textFontWeight="200"
+        android:includeFontPadding="true"
+        android:text=" ToDo"/>
+
+
+
+</RelativeLayout>
